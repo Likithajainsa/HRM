@@ -1,0 +1,23 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+.table{
+    margin-top: 50px;
+}
+
+.mat-toolbar.mat-primary {
+    background: #fff;
+    color: #3f51b5;
+}
+
+.example-icon{
+    /* padding: 0 328px; */
+    /* float: right; */
+    display: block;
+    margin-left: auto;
+  }
+
+  .logo{
+      width: 100%;
+  }
+
+  
