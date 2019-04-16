@@ -57,15 +57,10 @@
 								<button mat-menu-item>Leave Type</button>
 								<button mat-menu-item>Work Week</button>
 								<button mat-menu-item>Holidays</button>
-							</mat-menu>
+					    </mat-menu>
 					
 						<mat-list-item [matMenuTriggerFor]="pim">
-							<!-- <i class="material-icons">
-									account_circle
-									</i>
-								<a matline>Time</a> -->
 								<span class="full-width" *ngIf="isExpanded || isShowing">PIM</span>
-								<!-- <mat-icon>play_arrow</mat-icon> -->
 				<mat-icon mat-list-icon>assessment</mat-icon>
 						</mat-list-item>
 						<mat-menu #pim="matMenu">
